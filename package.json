@@ -1,0 +1,11 @@
+{
+  "name": "turbo-static",
+  "version": "1.0.0",
+  "description": "Sample App powered by Turbo",
+  "main": "index.js",
+  "author": "Olivier",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx http-server"
+  }
+}

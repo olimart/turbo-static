@@ -1,0 +1,48 @@
+.bundle
+db/*.sqlite3
+/log/*
+!/log/.keep
+/public/assets/
+.rvmrc
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/public/cache
+/public/uploads
+**/.DS_Store
+.DS_Store
+/config/stripe_config.yml
+/config/application.yml
+/config/database.yml
+dump.rdb
+.yardoc
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+yarn-error.log
+coverage
+output.txt
