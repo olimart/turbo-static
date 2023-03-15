@@ -6,6 +6,6 @@
   "author": "Olivier",
   "license": "MIT",
   "scripts": {
-    "dev": "npx http-server"
+    "dev": "npx http-server ./docs"
   }
 }
