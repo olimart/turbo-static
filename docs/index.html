@@ -28,7 +28,7 @@
     <p>This is a sample static app powered by Turbo!</p>
   </header>
   <main style="text-align:center;">
-    <h1>Gallery</h1>
+    <h2>Gallery</h2>
     <turbo-frame id="gallery">
       <picture>
         <source type="image/webp" srcset="images/ocean.webp">
@@ -38,6 +38,33 @@
         <a href="./gallery/forest">Next (forest)</a>
       </div>
     </turbo-frame>
+
+    <h2>Stimulus</h2>
+    <p>A modest JavaScript framework for the HTML you already have.</p>
+    <div data-controller="hello">
+      <input data-hello-target="name" type="text" placeholder="Enter your name">
+      <button data-action="click->hello#greet">Greet</button>
+      <aside>
+        <p data-hello-target="output">Howdy!</p>
+      </aside>
+    </div>
   </main>
+  <script type="module">
+    import { Application, Controller } from "https://unpkg.com/@hotwired/stimulus/dist/stimulus.js"
+    window.Stimulus = Application.start()
+
+    Stimulus.register("hello", class extends Controller {
+      static targets = ["name", "output"]
+
+      greet() {
+        this.outputTarget.textContent = `Hello, ${this.nameTarget.value}!`
+        this.nameTarget.value = ""
+      }
+
+      get name() {
+        return this.nameTarget.value
+      }
+    })
+  </script>
 </body>
 </html>
