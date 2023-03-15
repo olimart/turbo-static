@@ -11,4 +11,4 @@ https://www.akshaykhot.com/using-hotwire-without-rails/
 
 ## Lighthouse Performance Report
 
-![Lighthouse](/20230314_lighthouse_report.png?raw=true "Lighthouse report")
+![Lighthouse](20230314_lighthouse_report.png?raw=true "Lighthouse report")
