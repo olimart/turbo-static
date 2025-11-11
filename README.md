@@ -9,6 +9,10 @@ Source:https://www.akshaykhot.com/using-hotwire-without-rails/
 - Install dependencies `npm i`
 - Start web server `npm run dev`
 
+## Testing
+
+- Run tests `npm test`
+
 ## Lighthouse Performance Report
 
 ![Lighthouse](lighthouse_report.png?raw=true "Lighthouse report")
