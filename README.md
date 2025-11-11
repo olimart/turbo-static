@@ -4,7 +4,7 @@
 
 This is a sample static App powered by Turbo.
 
-Source: https://www.akshaykhot.com/using-hotwire-without-rails/
+Source: [https://www.akshaykhot.com/using-hotwire-without-rails](https://www.akshaykhot.com/using-hotwire-without-rails/)
 
 ## Getting started
 
