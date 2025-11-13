@@ -7,6 +7,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx http-server ./docs",
-    "test": "node --test \"specs/**/*.js\""
+    "test": "node --test \"test/**/*.js\""
   }
 }
